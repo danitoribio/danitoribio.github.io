@@ -168,6 +168,15 @@ ul.menu li a:hover {
     margin-bottom: 20px;
 }
 
+.projects a {
+    text-decoration: none;
+    color: inherit; /* Mantener el color del texto sin cambios */
+}
+
+.projects a:hover {
+    text-decoration: none; /* Evita el subrayado en el hover */
+}
+
 /* About Section */
 .about {
     background-color: #f9f9f9;
@@ -204,3 +213,4 @@ footer {
 footer p {
     font-size: 14px;
 }
+
