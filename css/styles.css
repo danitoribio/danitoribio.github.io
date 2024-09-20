@@ -217,6 +217,8 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+    margin-top: 50px;
+    padding-bottom: 30px;
 }
 
 footer p {
