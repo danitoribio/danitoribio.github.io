@@ -169,6 +169,8 @@ ul.menu li a:hover {
     padding: 0 15px;
     margin-bottom: 10px;
     flex-grow: 1; /* Permite que el texto use el espacio vertical disponible */
+    white-space: normal; /* Permite el ajuste de línea */
+    word-wrap: break-word; /* Ajusta las palabras largas */
 }
 
 .project .date {
