@@ -135,13 +135,14 @@ ul.menu li a:hover {
     border-radius: 5px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 40px;
-    width: 300px; /* Ancho fijo para que todos sean iguales */
-    height: 450px; /* Altura fija para que todos sean iguales */
+    width: 320px; /* Ajustado para ser un poco más ancho */
+    height: 480px; /* Ajustado para ser un poco más alto */
     text-align: center;
     transition: transform 0.3s ease;
     display: flex;
-    flex-direction: column; /* Mantiene la disposición vertical */
-    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px; /* Espaciado interno para mejor presentación */
 }
 
 .project:hover {
@@ -167,7 +168,7 @@ ul.menu li a:hover {
     font-size: 16px;
     padding: 0 15px;
     margin-bottom: 10px;
-    flex-grow: 1; /* Para que el texto se ajuste al espacio disponible */
+    flex-grow: 1; /* Permite que el texto use el espacio vertical disponible */
 }
 
 .project .date {
