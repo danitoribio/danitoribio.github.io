@@ -136,7 +136,7 @@ ul.menu li a:hover {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 40px;
     width: 320px; /* Ajustado para ser un poco más ancho */
-    height: 520px; /* Ajustado para ser un poco más alto */
+    height: 580px; /* Ajustado para ser un poco más alto */
     text-align: center;
     transition: transform 0.3s ease;
     display: flex;
